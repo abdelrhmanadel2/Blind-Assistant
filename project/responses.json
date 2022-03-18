@@ -1,0 +1,63 @@
+{
+    "en-us":
+    {
+          
+        "greeting":["hey, how can I help you?",
+             "hey, what's up?",
+             "I'm listening",
+              "how can I help you?",
+              "hello"],
+        "weather":{
+            "ask_city":"which city",
+            "response":"currently in {city} temperature is  {temp} degree celsius, humidity is {humidity} percent and sky is  {phrase} " ,
+            "error":"sorry, i couldn't get the location"
+        } ,     
+        "time" : { "response": "the time now is ", "error": "sorry,time cannot be determined" }, 
+        "date":{"response": "the date is ", "error": "sorry,date cannot be determined" },
+        "textdetection":{"response":"text detection started","error":"sorry, text could not be found"},
+        "objectdetection":{"response":"object detection started","error":"sorry, objects could not be found"},
+        "change-language":{ "response":"language are changed to","error":"sorry, language could not be changed","language-name":"english" },
+        "change-name":{ "ask":"what's your name?","response":"okay, i will remember that ","error":"sorry, name could not be changed" }
+
+  
+    },
+    
+
+   "ar-eg":
+   {
+
+    "greeting" : ["أهلا ، كَيْف يُمْكِنَنِي مُساعَدَتِك ؟ " , 
+        "مرحبا ، كَيْفَ حَالُك ؟ " , 
+        "أنا أستمع" , 
+        "كيف يُمْكِنَنِي مُساعَدَتِك ؟ " , 
+        "أهلا"] , 
+        
+         "weather" : { 
+            "ask_city" : " فِي أَي مَدِينَةٍ" , 
+            "response" : "حاليا في مدينة {city} درجه الحراره هي {temp} درجه مئوية و الرطوبه هي {humidity} و الطقس {phrase}",
+            "error" : "عذرا لَا أَجِدُ الموقع" 
+            } , 
+           "time" : { "response" : " الْوَقْتَ الْآنَ هُوَ " , 
+                "error" : "عذرا لايمكن تَحْدِيدٌ الوقت" 
+            } ,
+            "date" : { "response" : "التاريخ هو" , 
+                "error" : "عذرًا ، لَا يُمْكِنُ تَحْدِيدٌ التاريخ" 
+                } ,
+            "textdetection":{"response":"بدأ اِكْتِشاف النص"
+                ,"error":"عذرًا ، تَعَذَّر الْعُثُور عَلَى النص"
+            },
+            "objectdetection":{"response" : "بدأ اِسكْتِشاف المكان" 
+                , "error" : "عذرًا ، تَعَذَّر اسْتِكْشاف المكان" 
+            },
+            "change-language":{ "response":"تم تَغْيِير اللُّغَة إلى" 
+                ,"error":"عذرًا ، تَعَذَّر تَغْيِير اللغة",
+                "language-name":"الْعَرَبِيَّة"  
+            },
+            "change-name":{ "response":"تم تَغْيِير الأسم إلى" 
+                ,"error":"عذرًا ، تَعَذَّر تَغْيِير الأسم",
+                "ask":"كَيْف يُمْكِنَنِي مناداتُك"  
+            }
+              
+
+   } 
+}
